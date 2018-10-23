@@ -32,6 +32,11 @@ h2 {
 	text-align: center;
 }
 
+p{
+	padding-right:10px;
+	padding-left: 10px;
+}
+
 #cv h2 {
 	font-size:27px;
 	letter-spacing: 1px;
@@ -54,7 +59,7 @@ h3 {
 }
 
 
-a,i {
+a {
 	text-decoration: none;
 	color: #334E58;
 }
@@ -138,36 +143,39 @@ img {
 
 .button-orange {
 	text-align : center;
-	color: #F48725;
+	background-color:#FEE7D6;
+	color: #334E58;
 	width : 300px;
 	padding : 15px;
 	margin : 0 auto;
-	background-color: #334E58;
 	font-size: 20px;
 	font-weight: bold;
 	border-radius: 5px;
+	border:1px solid #F48725;
 }
 
 .button-orange:hover {
-	background-color: rgb(230,230,230);
-	color:#334E58;
+	background-color: #F48725;
 	transition: background-color 0.3s ease;
 }
 
 
-#reseaux-sociaux {
+#reseaux-sociaux{
 	text-align: center;
+}
+
+#reseaux-sociaux i{
+	color:#334E58;
 }
 
 
 .logos-rs {
 	font-size: 40px;
-	color: #565656;
 }
 
 
 #reseaux-sociaux i:hover{
-	color:red;
+	color:#F48725;
 	transition: 0. s ease
 }
 
