@@ -216,7 +216,8 @@ img {
 		padding: 1px;
 		width: 190px;
 	}
-	#menu .list-without-bullet-point {
-		line-height: 40px
+	.button-orange {
+		font-size:14px;
+	}
 	}
 }
