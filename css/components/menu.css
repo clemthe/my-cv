@@ -1,18 +1,20 @@
 #menu .list-without-bullet-point {
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom:10px;
   margin-top:0;
   background-color:white;
   text-align : center;
   letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0px;
 }
-
-#menu .inline {
+#menu .inline a {
 	margin: 0;
 	padding:10px;
 }
 
-/*Pour que le changement de couleur se fasse dès le hover du "li"*/
-#menu .inline:hover>a{
+#menu .inline a:hover {
 	color:#F48725;
 } 
 
