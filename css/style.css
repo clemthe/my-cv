@@ -8,9 +8,9 @@
 @import url("components/circle-photo.css");
 @import url("components/list-inline.css");
 @import url("components/menu.css");
+@import url("components/footer.css");
 @import url("components/responsive.css");
 @import url("components/text-center.css");
-@import url("components/footer.css");
 @import url("components/description.css");
 
 body {
@@ -68,4 +68,10 @@ a {
 	padding: 0;
 }
 
-
+.fixed {
+	position: fixed;
+	right: 0;
+	top: 80%;
+	width: 8em;
+	margin-top: -2.5em;
+}
