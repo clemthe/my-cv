@@ -38,27 +38,15 @@ h1 {
 }
 
 h2 {
-	color:#F48725;
 	text-align: center;
-}
-
-
-#cv h2 {
+	color:#F48725;
 	font-size:27px;
 	letter-spacing: 1px;
 	padding: 6px;
-	width: 500px;
 	margin:0 auto;
 	text-transform: uppercase;
 }
 
-#reseaux-sociaux h2 {
-	font-family: lobster, sans-serif;
-	border: none;
-	margin: 0;
-	font-size: 40px;
-	font-weight: 10;
-}
 
 h3 {
 	color: #334E58;
@@ -71,7 +59,7 @@ a {
 }
 
 #prenom {
-	font-family: "lobster", sans-serif;
+	font-family: "lobster", cursive;
 	color: #334E58;
 	text-align: center;
 	font-size: 40px;

@@ -10,29 +10,33 @@
   .container {
     	width: 520px;
   }
-  	#cv h2 {
+  	.white-card h2 {
 		padding: 1px;
 		width: 400px;
+		font-size: 20px;
 	}
 	#menu .list-without-bullet-point {
 		line-height: 40px
+	}
+
+	 .button-orange {
+		line-height: 3.5;
 	}
 }
 
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
-  .container {
+  	.container {
     	width: 300px;
  	}
-  .button-orange {
-		width: 180px
+  	.button-orange {
+  		line-height: 5;
+		font-size:13px;
+		margin:0;
 	}
-	#cv h2 {
-		font-size: 19px;
-		padding: 1px;
-		width: 190px;
+	.white-card h2 {
+		font-size:17px;
+		width: 160px;
 	}
-	.button-orange {
-		font-size:14px;
-	}
+
 }

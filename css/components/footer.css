@@ -5,7 +5,7 @@
 }
 
 
-.logos-rs {
+#reseaux-sociaux .logos-rs {
 	font-size: 40px;
 }
 
@@ -13,4 +13,12 @@
 #reseaux-sociaux i:hover{
 	color:#F48725;
 	transition: 0. s ease
+}
+
+#reseaux-sociaux h2 {
+	font-family: lobster, cursive;
+	border: none;
+	font-size: 40px;
+	font-weight: 10;
+	text-transform: capitalize;
 }
