@@ -1,0 +1,22 @@
+#menu .list-without-bullet-point {
+  padding: 10px;
+  margin-top:0;
+  background-color:white;
+  text-align : center;
+  letter-spacing: 1px;
+}
+
+#menu .inline {
+	margin: 0;
+	padding:10px;
+}
+
+/*Pour que le changement de couleur se fasse dès le hover du "li"*/
+#menu .inline:hover>a{
+	color:#F48725;
+} 
+
+#menu .inline:hover {
+	background-color: #334E58;
+	transition: background-color 0.4s ease;
+}

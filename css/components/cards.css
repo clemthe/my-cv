@@ -1,0 +1,22 @@
+
+.white-card {
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-bottom: 20px;
+	border-bottom: 10px solid #334E58;
+}
+
+.grey-card {
+	background: rgb(240,240,240);
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-bottom: 20px;
+	margin-left:-10px;
+	margin-right:-10px;
+
+}

@@ -1,0 +1,16 @@
+
+
+#reseaux-sociaux i{
+	color:#334E58;
+}
+
+
+.logos-rs {
+	font-size: 40px;
+}
+
+
+#reseaux-sociaux i:hover{
+	color:#F48725;
+	transition: 0. s ease
+}
