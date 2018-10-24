@@ -22,3 +22,11 @@
 	background-color: #334E58;
 	transition: background-color 0.4s ease;
 }
+
+@media (max-width: 820px) {
+  /* For a screen < 720px, this CSS will be read */
+
+  #menu .list-without-bullet-point {
+    line-height: 40px
+  }
+}

@@ -1,5 +1,4 @@
 
-
 #reseaux-sociaux i{
 	color:#334E58;
 }
@@ -21,4 +20,14 @@
 	font-size: 40px;
 	font-weight: 10;
 	text-transform: none;
+}
+
+@media (max-width: 820px) {
+  /* For a screen < 720px, this CSS will be read */
+  	#reseaux-sociaux h2 {
+		padding: 0px;
+		margin:0 auto;
+		width: 200px;
+		font-size: 25px;
+	}
 }

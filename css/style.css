@@ -9,9 +9,12 @@
 @import url("components/list-inline.css");
 @import url("components/menu.css");
 @import url("components/footer.css");
-@import url("components/responsive.css");
+
 @import url("components/text-center.css");
 @import url("components/description.css");
+
+
+
 
 body {
 	color: #565656;
@@ -68,10 +71,10 @@ a {
 	padding: 0;
 }
 
-.fixed {
-	position: fixed;
-	right: 0;
-	top: 80%;
-	width: 8em;
-	margin-top: -2.5em;
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+	h2 {
+		font-size:17px;
+		width: 160px;
+	}
 }
