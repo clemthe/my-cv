@@ -9,7 +9,6 @@
 @import url("components/list-inline.css");
 @import url("components/menu.css");
 @import url("components/footer.css");
-
 @import url("components/text-center.css");
 @import url("components/description.css");
 
@@ -38,7 +37,8 @@ h1 {
 	padding: 10px;
 	font-family: "Lobster", cursive;
 	font-weight: 10;
-	margin-bottom: 0
+	margin-bottom: 0;
+
 }
 
 h2 {
